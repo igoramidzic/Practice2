@@ -1,0 +1,16 @@
+.main-page-container {
+    background-color: lightpink;
+}
+
+.content-container {
+    height: 200;
+    width: 250;
+    background-color: #ffffff;
+    padding: 20;
+}
+
+.form-text-box {
+    background-color: #ffffff;
+    border-width: 1;
+    border-color: #ccc;
+}

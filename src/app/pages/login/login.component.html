@@ -1,0 +1,7 @@
+<ScrollView class="main-page-container">
+    <FlexboxLayout flexDirection="column" justifyContent="space-between" class="content-container">
+        <TextField class="form-text-box" [(ngModel)]="email" hint="Email"></TextField>
+        <TextField class="form-text-box" [(ngModel)]="password" secure="true" hint="Password"></TextField>
+        <Button text="Login" (tap)="onLogin()"></Button>
+    </FlexboxLayout>
+</ScrollView>
